@@ -8,15 +8,15 @@ The 1U-CubeSat Telemetry Rig is an open source payload for sensing environment a
 Visual Documentation
 
 ## 1. Schematic
-<img src="Images/Schematic.png" alt="Board Schematics"
+![Schematic](Images/Schematic.png)
 The schematic diagram illustrates how the ESP32-CAM, MPU6050, BMP280, AMS1117 regulator and power switching circuitry connect.
 
 ## 2. PCB Layout
-<img src="Images/PCB Layout.png" alt="PCB Layout of Board"
+![PCB Layout](Images/PCB%20Layout.png)
 In this figure the top and bottom copper layout shows the routing of traces as well as the placement of decoupling capacitors. There is a specific amount of empty space around the antenna.
 
 ## 3. 3D Render
-<img src="Images/3D Render.png" alt="3d Image of Board"
+![3D Render](Images/3d%20Render.png)
 As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
 
 ---
