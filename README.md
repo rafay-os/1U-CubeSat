@@ -15,13 +15,17 @@ The schematic diagram illustrates how the ESP32-CAM, MPU6050, BMP280, AMS1117 re
 ![PCB Layout](Images/PCB%20Layout.png)
 In this figure the top and bottom copper layout shows the routing of traces as well as the placement of decoupling capacitors. There is a specific amount of empty space around the antenna.
 
-## 1. Add LoRa Module
+## 3. Add LoRa Module
 ![LoRa Module](Images/LoRa.png)
 Added LoRa Module in my pcb for better ground connection.
 
-## 3. 3D Render
+## 4. 3D Render
 ![3D Render](Images/3d%20Render.png)
 As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
+
+## 5. Final Rendered
+![LoRa Module](Images/LoRa.png)
+
 
 ---
 ### Bill of Materials (BOM) & Local Procurement (epro.pk)
