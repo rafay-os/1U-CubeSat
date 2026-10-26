@@ -27,14 +27,13 @@ As shown in the 3D assembly render, the telemetry board contains specific parts 
 
 ## Bill of Materials (BOM)
 
-| Item | Description | Quantity | Unit Price (USD) | Total Price (USD) | Buying Link |
-| :--- | :--- | :---: | :---: | :---: | :--- |
-| **10uF Capacitor** | C1, C2 (C0402) | 2 | $0.05 | $0.10 | [LCSC C15525](https://www.lcsc.com/product-detail/C15525.html) |
-| **Pin Header** | H1 (HDR-TH_6P-P2.54-V-M-1) | 1 | $0.20 | $0.20 | [LCSC Header](https://www.lcsc.com/) |
-| **Slide Switch** | SW1 (SW-SMD_MST-12D18G4-SPDT) | 1 | $0.15 | $0.15 | [LCSC C49023766](https://www.lcsc.com/product-detail/C49023766.html) |
-| **ESP32-CAM** | U1 (COMM-TH_16P-ESP32-CAM) | 1 | $4.50 | $4.50 | [LCSC C277946](https://www.lcsc.com/product-detail/C277946.html) |
-| **MPU6050** | U2 (QFN-24 6-Axis IMU) | 1 | $1.20 | $1.20 | [LCSC C9900042518](https://www.lcsc.com/product-detail/C9900042518.html) |
-| **BMP280** | U3 (LGA-8 Pressure Sensor) | 1 | $0.95 | $0.95 | [LCSC C83291](https://www.lcsc.com/product-detail/C83291.html) |
-| **JST Connector** | U4 (CONN-TH_B2B-PH-K-S) | 1 | $0.10 | $0.10 | [LCSC C9900170324](https://www.lcsc.com/product-detail/C9900170324.html) |
-| **AMS1117-3.3** | U5 (SOT-223 Voltage Regulator) | 1 | $0.20 | $0.20 | [LCSC C6186](https://www.lcsc.com/product-detail/C6186.html) |
-| **TOTAL COST** | *Total Estimated Hardware Cost* | | | **$7.40** | |
+No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,Price_PKR
+1,2,10uF,"C1,C2",C0402,10uF,CL05A106,SAMSUNG,C15525,epro.pk,20
+2,1,HDR-M_2.54_1x6P,H1,HDR-TH_6P,,HDR,Generic,N/A,epro.pk,30
+3,1,MST-12D18G3 Slide Switch,SW1,SW-SMD,,MST-12D18G3,SHOU HAN,C49023766,epro.pk,50
+4,1,ESP32-CAM,U1,ESP32-CAM,,ESP32-CAM,Ai-Thinker,C277946,epro.pk,1450
+5,1,MPU6050,U2,QFN-24,,MPU6050,TDK/InvenSense,C9900042518,epro.pk,450
+6,1,BMP280,U3,LGA-8,,BMP280,Bosch,C83291,epro.pk,480
+7,1,B2B-PH-K-S,U4,CONN-TH,,B2B-PH-K-S,JST,C9900170324,epro.pk,40
+8,1,AMS1117-3.3,U5,SOT-223,,AMS1117-3.3,AMS,C6186,epro.pk,58
+9,1,915MHz LoRa,U6,WIRELM-SMD,915MHz,LORA-CC68,G-NiceRF,C5126740,epro.pk,640
