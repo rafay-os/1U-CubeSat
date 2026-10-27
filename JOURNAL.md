@@ -3,7 +3,7 @@ title: "1U-CubeSat"
 github: "https://github.com/rafay-os/1U-CubeSat"
 description: "A compact custom designed 1U CubeSat telemetry and environmental sensing rig built around the esp32-cam module. Interated with an MPU6050 6 axis Imu and a BMP280 barometric pressure,temperature sensor over a robust 12c bus. Powered by a LiPo battery via an on board AMS1117-3.3V regulator and slide switch control, featuring dedicated programming headers and a professional 2-layer PCB layout branded with SUPARCO (Pakistan Space Agency)."
 created_at: "2026-10-25"
-total_time: "2h 12m"
+total_time: "4h 30m"
 ---
 
 # October 25, 2026: get my pcb.source file and BOM file
@@ -20,7 +20,7 @@ i did not know how to get pcb source file and BOM file in easyeda because I was 
 
 i just added my project in reviewing i searched and placed all components in my cart, and i am very interested in to build this project when ever i will recieve my grant
 
-![](https://fabricate.hackclub-assets.com/bb27fbe39d7f3e7a41253afd8fbc684603d7c34d690ba33c1f20045f49bbcf92/image-png/ffdd2629-a2be-45ca-8aba-939862f7912.png)
+![](https://fabricate.hackclub-assets.com/bb27fbe39d7f3e7a41253afd8fbc684603d7c34d690ba33c1f20045f49bbcf92/image-png/ffdd2629-a2be-45ca-8aba-939862f79126.png)
 
 **Total time spent: 18m**
 
@@ -36,3 +36,13 @@ On October 26, 2026  the 1u-CubeSat telemetry payload hardware and documentation
 ![](https://fabricate.hackclub-assets.com/a6aff93261eeaf20b051abfae69109268673835d298be110f2ccd57e855f6611/image-png/Schematics2.png)
 
 **Total time spent: 1h 24m**
+
+# October 27, 2026: added antena and  fix some other issues
+
+this journal documents the design prototyping iteration and manufacturing preparation stages of the 1U-CubeSat Telemetry payload PCB The project began with the initial schematic design focused on core telemetry sensors and modular compatibility with standard 1U CubeSat dimensions, utilizing the esp32 cam microcontroller, MPU6050 6 axis IMU and BMP280 barometric sensor alongside an AMS1117 3.3 regulator and decoupling capacitors Next the RF subsystem integrated a 915MHz LoRa module and SMT antenna connector with proper keepout clearance to prevent signal loss During the mechanical and PCB layout phase, standard 3mm M3 mounting holes rounded board corners, and widened power traces 0.6mm 0.8mm were implemented passing the EasyEDA Design Rule Check with zero errors Finally the BOM documentation was compiled with LCSC part numbers and direct supplier links into a structured CSV format for smooth GitHub tracking and manufacturing handover
+
+![](https://fabricate.hackclub-assets.com/ba909b7bda4a195ee079899f1642d06a31ea04dab1119c3383589ae00d8df3c5/image-png/final.png)
+![](https://fabricate.hackclub-assets.com/27054be7faa229f0f32a9285e3890ca11ed9acb84d86443538b9285647c15dd3/image-png/Updatedschematic.png)
+![](https://fabricate.hackclub-assets.com/536393d849bd0f8c8584a3a6ac62d319660c338dd663197f29691fc7bd94bb2b/image-png/UpdatedPcb.png)
+
+**Total time spent: 2h 18m**
