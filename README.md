@@ -5,7 +5,8 @@ The 1U-CubeSat Telemetry Rig is an open source payload for sening environment an
 
 ---
 > **CAD Source & 3D Model:** Located in the `/cad/` directory (`PCB1.epro2` source & `pcb.step` 3D model).
-Visual Documentation
+Visual Documentation. Note, that Antena module is not avalible at epro.pk so i give i take it from thriftyrcstore.com
+
 
 ## 1. Schematic
 ![Schematic](Images/Schematic.png)
