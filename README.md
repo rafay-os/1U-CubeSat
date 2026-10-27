@@ -1,6 +1,6 @@
-@@ -1,53 +1,65 @@
+
 # 1U-CubeSat Telemetry Rig
----
+
 title: "1U-CubeSat"
 github: "https://github.com/rafay-os/1U-CubeSat"
 description: "A compact custom designed 1U CubeSat telemetry and environmental sensing rig built around the esp32-cam module. Interated with an MPU6050 6 axis Imu and a BMP280 barometric pressure,temperature sensor over a robust 12c bus. Powered by a LiPo battery via an on board AMS1117-3.3V regulator and slide switch control, featuring dedicated programming headers and a professional 2-layer PCB layout branded with SUPARCO (Pakistan Space Agency)."
