@@ -11,21 +11,30 @@ Visual Documentation
 ![Schematic](Images/Schematic.png)
 The schematic diagram illustrates how the ESP32-CAM, MPU6050, BMP280, AMS1117 regulator and power switching circuitry connect.
 
-## 2. PCB Layout
+## 3. Updated Schematic
+![Updated Schematic](Images/Updatedschematic.png)
+Added a dedicated external antenna solder pad P1 connected to the LoRa module U6 ensuring a clear antenna keepout zone for reliable 915MHz telemetry transmission
+
+
+## 4. PCB Layout
 ![PCB Layout](Images/PCB%20Layout.png)
 In this figure the top and bottom copper layout shows the routing of traces as well as the placement of decoupling capacitors. There is a specific amount of empty space around the antenna.
 
-## 3. Add LoRa Module
+## 5. Updated Pcb Layout
+![Updated Pcb](Images/UpdatedPcb.png)
+Added and properly positioned 10uF input C1 and output C2 decoupling capacitors directly adjacent to the AMS1117-3.3V voltage regulator pins to minimize voltage spikes and high-frequency noise Increased the track widths for power `BATT_POS` `5V` `3V3` and ground nets to reduce parasitic inductance and prevent voltage drops
+
+## 6. Add LoRa Module
 ![LoRa Module](Images/LoRa.png)
 Added LoRa Module in my pcb for better ground connection.
 
-## 4. 3D Render
+## 7. 3D Render
 ![3D Render](Images/3d%20Render.png)
 As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
 
-## 5. Final Rendered
-![LoRa Module](Images/LoRa.png)
-
+## 5. Updated 3D Rendered
+![Updated 3D Rendered](Images/final.png)
+Incorporated rounded board corners with standard M3 mounting holes 3mm for seamless mechanical integration inside the 1U CubeSat frame
 
 ---
 ### Bill of Materials (BOM) & Local Procurement (epro.pk)
