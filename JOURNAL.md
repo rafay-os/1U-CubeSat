@@ -20,7 +20,7 @@ i did not know how to get pcb source file and BOM file in easyeda because I was 
 
 i just added my project in reviewing i searched and placed all components in my cart, and i am very interested in to build this project when ever i will recieve my grant
 
-![](https://fabricate.hackclub-assets.com/bb27fbe39d7f3e7a41253afd8fbc684603d7c34d690ba33c1f20045f49bbcf92/image-png/ffdd2629-a2be-45ca-8aba-939862f79126.png)
+![](https://fabricate.hackclub-assets.com/bb27fbe39d7f3e7a41253afd8fbc684603d7c34d690ba33c1f20045f49bbcf92/image-png/ffdd2629-a2be-45ca-8aba-939862f7912.png)
 
 **Total time spent: 18m**
 
