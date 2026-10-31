@@ -28,6 +28,9 @@ In this figure the top and bottom copper layout shows the routing of traces as w
 ![3D Rendered](Images/3d_render.png)
 As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
 ## Latest Updates
+I added 100nF and 10uF decouping capacitors near the LoRa module and connected them between 3.3V and GND.I added a solid GND copper plane on the bottom layer.I moved the antenna connector closer to the LoRa ANT pin and made the feedline shorter and straighter
+I ran the DRC check and no errors were reported
+The antenna feedline imedance still needs to be veified using the final PCB stackup
 ## 1: Updated BOM CSV
 ## 2: Added Latest PCB render
 ## 3: Made Design changes
