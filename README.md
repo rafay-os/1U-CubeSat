@@ -21,7 +21,7 @@ Added LoRa Module in my pcb for better ground connection.
 In this figure the top and bottom copper layout shows the routing of traces as well as the placement of decoupling capacitors. There is a specific amount of empty space around the antenna.
 
 ## 4.3D Rendered
-![3D Rendered](Images/final.png)
+![3D Rendered](Images/3D_rendered.png)
 As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
 
 
