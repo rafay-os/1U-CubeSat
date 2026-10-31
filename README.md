@@ -3,10 +3,6 @@
 Project Overview
 The 1U-CubeSat Telemetry Rig is an open source payload for sening environment and space. It uses a small design to prototype space exploration and record data from the atmosphere. To achieve its functions it uses the ESP32-CAM microcontroller It includes an MPU6050 6-axis IMU to track motion plus a BMP280 sensor to measure barometric pressure and temperature.
 
-##Updated BOM CSV
-##Added Latest PCB render
-##Made Design changes
-
 ---
 > **CAD Source & 3D Model:** Located in the `/cad/` directory (`PCB1.epro2` source & `pcb.step` 3D model).
 Visual Documentation. Note, that Antena module is not avalible at epro.pk so i give i take it from thriftyrcstore.com
