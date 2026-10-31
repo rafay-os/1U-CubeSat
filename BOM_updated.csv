@@ -1,0 +1,15 @@
+No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,Link,Unit Price (PKR),Total Price (PKR),Price Status
+1,2,10uF ceramic capacitor,"C1,C2",C0402,10uF,CL05A106MQ5NUNC,Samsung,C15525,Already available,,Already available,Already available,Already available in stock
+2,1,1x6 male header,H1,HDR-TH_6P-P2.54-V-M-1,1x6 Male Header,Header 2.54mm 1x6,Generic,HDR-1X6,Already available,,Already available,Already available,Already available in stock
+3,1,Surface mount slide switch,SW1,SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH,SPDT Switch,MST-12D18G3,SHOU HAN,C49023766,EPro,https://epro.pk/product/slider-on-off-switch/,15,15,User-provided price
+4,1,ESP32-CAM module,U1,COMM-TH_16P-L40.0-W27.0-P2.54_ESP32-CAM,ESP32-CAM Module,ESP32-CAM,Ai-Thinker,ESP32-CAM-MOD,EPro,https://epro.pk/product/esp32-cam-ov2640-board-in-pakistan/,1530,1530,User-provided price
+5,1,MPU6050 sensor/module,U2,QFN-24_L4.0-W4.0-P0.50-BL,6-Axis Gyro/Accelerometer,MPU6050,InvenSense,MPU-6050-MOD,EPro,https://epro.pk/product/mpu6050-gy-521-3-axis-analog-gyroscope-sensor-in-pakistan/,490,490,User-provided price. Verify module listing matches bare QFN footprint.
+6,1,BMP280 sensor/module,U3,LGA-8_L2.5-W2.0-P0.65_AMP6127,Barometric Pressure Sensor,BMP280,Bosch,BMP280-MOD,EPro,https://epro.pk/product/bmp280-pressure-sensor-in-pakistan/,350,350,User-provided price. Verify module listing matches bare LGA footprint.
+7,1,"2-pin JST PH connector, 2.0mm pitch",U4,CONN-TH_B2B-PH-K-S,2-Pin JST PH Connector,B2B-PH-K-S,JST,2-pin JST PH 2.0mm,Digilog,https://digilog.pk/products/2-pin-jst-ph-connector-2-0mm-pitch-in-pakistan,20,20,User-provided listed sale price
+8,1,3.3V LDO regulator,U5,SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR,3.3V LDO Voltage Regulator,AMS1117-3.3,AMS,AMS1117-3.3-SMD,EPro,https://epro.pk/product/ams1117-3-3v-module-adjustable-and-fixed-voltage-regulator-in-pakistan/,65,65,"User-provided price. Verify listing is bare SOT-223 part, not a module."
+9,1,915MHz LoRa module,U6,WIRELM-SMD_16P-L16.0-W16.0-P2.00_LORA-CC68-915MHZ-TCXO,915MHz LoRa,LORA-CC68-C1-915MHz,G-NiceRF,LORA-915MHZ,EPro,https://epro.pk/product/sx1276-lora-module-915mhz-rfm95-in-pakistan/,1800,1800,User-provided price. Verify exact module model and footprint.
+10,1,IPEX/U.FL antenna connector,U7,SMD-1_BD4.4-D2.8-H2.0,IPEX/U.FL Antenna Connector,SMTWEM220STR,YIYUAN,IPEX-SMD,Thrifty RC Store,https://thriftyrcstore.com/product/915mhz-t-type-antenna-ipex1-ufl-connector-for-elrs-rx-ipex1-78mm-in-pakistan/,,,"Original Rs 1,000 mentioned; current price not confirmed. Verify connector-only vs antenna product."
+11,1,PCB fabrication,PCB,PCB,Custom PCB,,,,,,,,Enter actual fabrication quote
+12,1,PCB assembly,Assembly,Assembly,PCB Assembly,,,,,,,,Enter assembler quote
+13,1,Shipping,Shipping,Shipping,Shipping,,,,,,,,Enter actual checkout shipping amount
+SUBTOTAL,,Confirmed priced components only,,,PKR 4270,,,,,,,,Excludes items marked Already available and all unconfirmed costs
