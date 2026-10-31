@@ -27,6 +27,10 @@ In this figure the top and bottom copper layout shows the routing of traces as w
 ## 4.3D Rendered
 ![3D Rendered](Images/3d_render.png)
 As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
+## Latest Updates
+## 1: Updated BOM CSV
+## 2: Added Latest PCB render
+## 3: Made Design changes
 
 
 ## Bill of Materials and Cost
