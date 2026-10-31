@@ -31,8 +31,7 @@ As shown in the 3D assembly render, the telemetry board contains specific parts 
 ## 1: Updated BOM CSV
 ## 2: Added Latest PCB render
 ## 3: Made Design changes
-
-
+---
 ## Bill of Materials and Cost
 
 The table below shows the main components used in the 1U CubeSat project and their estimated prices in Pakistani Rupees. The prices were collected from the suppliers listed in the BOM.
