@@ -1,6 +1,6 @@
 No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,Link,Unit Price (PKR),Total Price (PKR),Price Status
 1,2,10uF ceramic capacitor,"C1,C2",C0402,10uF,CL05A106MQ5NUNC,Samsung,C15525,To be confirmed,,,,Exact 10uF C0402 price not confirmed. EPro Rs 10 assortment image does not show 10uF C0402.
-2,1,1x6 male header,H1,HDR-TH_6P-P2.54-V-M-1,1x6 Male Header,Header 2.54mm 1x6,Generic,HDR-1X6,Already available,,,,Need supplier listing and price for exact 1x6 header. Do not use 2x5 box header listing.
+2,1,1x6 male header,H1,HDR-TH_6P-P2.54-V-M-1,1x6 Male Header,Header 2.54mm 1x6,Generic,HDR-1X6,Already available,,,,Need supplier listing and price for exact 1x6 header
 3,1,Surface mount slide switch,SW1,SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH,SPDT Switch,MST-12D18G3,SHOU HAN,C49023766,EPro,https://epro.pk/product/slider-on-off-switch/,15,15,User-provided price
 4,1,ESP32-CAM module,U1,COMM-TH_16P-L40.0-W27.0-P2.54_ESP32-CAM,ESP32-CAM Module,ESP32-CAM,Ai-Thinker,ESP32-CAM-MOD,EPro,https://epro.pk/product/esp32-cam-ov2640-board-in-pakistan/,1530,1530,User-provided price
 5,1,MPU6050 sensor/module,U2,QFN-24_L4.0-W4.0-P0.50-BL,6-Axis Gyro/Accelerometer,MPU6050,InvenSense,MPU-6050-MOD,EPro,https://epro.pk/product/mpu6050-gy-521-3-axis-analog-gyroscope-sensor-in-pakistan/,490,490,User-provided price. Verify module listing matches bare QFN footprint.
