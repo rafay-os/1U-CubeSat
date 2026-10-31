@@ -13,6 +13,7 @@ The schematic diagram illustrates how the ESP32-CAM, MPU6050, BMP280, AMS1117 re
 
 ## 2. Add LoRa Module
 ![LoRa Module](Images/LoRa.png)
+
 Added LoRa Module in my pcb for better ground connection.
 
 ## 3. PCB Layout
