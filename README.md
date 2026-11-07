@@ -1,60 +1,32 @@
-# 1U-CubeSat Telemetry Rig
-
-The 1U-CubeSat Telemetry Rig is an open source payload for sening environment and space. It uses a small design to prototype space exploration and record data from the atmosphere. To achieve its functions it uses the ESP32-CAM microcontroller It includes an MPU6050 6-axis IMU to track motion plus a BMP280 sensor to measure barometric pressure and temperature.
-
----
-> **CAD Source & 3D Model:** Located in the `/cad/` directory (`PCB1.epro2` source & `pcb.step` 3D model).
-Visual Documentation. Note, that Antena module is not avalible at epro.pk so i give i take it from thriftyrcstore.com. also note that while uploading pcb.step file i have error that your file is veru big in size so thats why i put pcb.zip as a compress so extract it nd see my pcb step file.
+# 1U-CubeSat
+1U cube sat is a small open source payload for space and enviornemental sensing. it uses an esp32 cam as the main controller, with an mpu6050 for motion, a bmp280 for pressure and temprature, and a 915MHz LoRa module with an IPEX antenna for long range communication an am117-3.3 regulator keeps power stable all packed in a 1U form factor a simple stating point for cube sat    and high altitude projects.
 
 
 ## 1. Schematic
 ![Schematic](Images/Updatedschematic.png)
-The schematic diagram illustrates how the ESP32-CAM, MPU6050, BMP280, AMS1117 regulator and power switching circuitry connect.
 
 ## 2. Add LoRa Module
 ![LoRa Module](Images/LoRa.png)
 
-Added LoRa Module in my pcb for better ground connection.
-
 ## 3. PCB Layout
 ![Pcb Layout](Images/UpdatedPcb.png)
-In this figure the top and bottom copper layout shows the routing of traces as well as the placement of decoupling capacitors. There is a specific amount of empty space around the antenna.
+
 
 ## 4.3D Rendered
 ![3D Rendered](Images/3d_render.png)
-As shown in the 3D assembly render, the telemetry board contains specific parts & SUPARCO branding.
-## Latest Updates
-I added 100nF and 10uF decouping capacitors near the LoRa module and connected them between 3.3V and GND.I added a solid GND copper plane on the bottom layer.I moved the antenna connector closer to the LoRa ANT pin and made the feedline shorter and straighter
-I ran the DRC check and no errors were reported
-The antenna feedline imedance still needs to be veified using the final PCB stackup
-## 1: Updated BOM CSV
-## 2: Added Latest PCB render
-## 3: Made Design changes
----
-## Bill of Materials and Cost
 
-The table below shows the main components used in the 1U CubeSat project and their estimated prices in Pakistani Rupees. The prices were collected from the suppliers listed in the BOM.
+## Bill of Materials (BOM)
 
-The total cost of the listed components is **PKR 4,564**. This amount does not include the final antenna price, PCB fabrication, assembly or shipping charges. These costs will be added after confirming the final quotes.
-
-Some parts still need to be checked before ordering to make sure the supplier listing matches the exact component and footprint used in the PCB design.
-
-| No. | Component | Quantity | Unit Price PKR | Total Price PKR |
-|---|---|---:|---:|---:|
-| 1 | 10uF Capacitor | 2 | 8 | 16 |
-| 2 | 1x6 Male Header | 1 | 18 | 18 |
-| 3 | Slide Switch | 1 | 15 | 15 |
-| 4 | ESP32-CAM Module | 1 | 1,530 | 1,530 |
-| 5 | MPU6050 Sensor | 1 | 490 | 490 |
-| 6 | BMP280 Sensor | 1 | 350 | 350 |
-| 7 | 2 Pin JST Connector | 1 | 280 | 280 |
-| 8 | AMS1117 3.3V Regulator | 1 | 65 | 65 |
-| 9 | 915MHz LoRa Module | 1 | 1,800 | 1,800 |
-| 10 | IPEX Antenna Connector | 1 | To be confirmed | To be confirmed |
-| 11 | PCB Fabrication | 1 | To be confirmed | To be confirmed |
-| 12 | PCB Assembly | 1 | To be confirmed | To be confirmed |
-| 13 | Shipping | 1 | To be confirmed | To be confirmed |
-
-**Current component subtotal: PKR 4,564**
-
-The final project cost will be updated after confirming the antenna price, PCB manufacturing, assembly and shipping charges.
+| Part | Quantity | Cost USD | Vendor | Link | TOTAL WITH TAX AND SHIPPING |
+|---|---|---|---|---|---|
+| 10uF Ceramic Capacitor (C0402 Samsung CL05A106MQ5NUNC) - Already Available | 2 | $0.00 | — | — | |
+| 1x6 Male Header (2.54mm) - Already Available | 1 | $0.00 | — | — | |
+| Slide Switch SPDT (MST-12D18G3) | 1 | $0.05 | EPro | [Link](https://epro.pk/product/slider-on-off-switch/) | |
+| ESP32-CAM Module | 1 | $5.49 | EPro | [Link](https://epro.pk/product/esp32-cam-ov2640-board-in-pakistan/) | |
+| MPU6050 Sensor Module (GY-521) | 1 | $1.76 | EPro | [Link](https://epro.pk/product/mpu6050-gy-521-3-axis-analog-gyroscope-sensor-in-pakistan/) | |
+| BMP280 Pressure Sensor Module | 1 | $1.26 | EPro | [Link](https://epro.pk/product/bmp280-pressure-sensor-in-pakistan/) | |
+| 2-Pin JST PH Connector (2.0mm) - Already Available | 1 | $0.00 | — | — | |
+| AMS1117-3.3 LDO Regulator (SOT-223) | 1 | $0.23 | EPro | [Link](https://epro.pk/product/ams1117-3-3v-module-adjustable-and-fixed-voltage-regulator-in-pakistan/) | |
+| 915MHz LoRa Module (LORA-CC68-C1-915MHz) | 1 | $6.45 | EPro | [Link](https://epro.pk/product/sx1276-lora-module-915mhz-rfm95-in-pakistan/) | |
+| IPEX/U.FL Antenna Connector (SMTWEM220STR) | 1 | TBD | Thrifty RC Store | [Link](https://thriftyrcstore.com/product/915mhz-t-type-antenna-ipex1-ufl-connector-for-elrs-rx-ipex1-78mm-in-pakistan/) | |
+| **TOTAL** | | | | | **~$21.84** |
