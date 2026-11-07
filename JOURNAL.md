@@ -3,7 +3,7 @@ title: "1U-CubeSat"
 github: "https://github.com/rafay-os/1U-CubeSat"
 description: "A compact custom designed 1U CubeSat telemetry and environmental sensing rig built around the esp32-cam module. Interated with an MPU6050 6 axis Imu and a BMP280 barometric pressure,temperature sensor over a robust 12c bus. Powered by a LiPo battery via an on board AMS1117-3.3V regulator and slide switch control, featuring dedicated programming headers and a professional 2-layer PCB layout branded with SUPARCO (Pakistan Space Agency)."
 created_at: "2026-10-25"
-total_time: "8h 12m"
+total_time: "11h"
 ---
 
 # October 25, 2026: get my pcb.source file and BOM file
@@ -61,3 +61,13 @@ The antenna feedline imedance still needs to be veified using the final PCBstack
 ![](https://fabricate.hackclub-assets.com/f1be8d383316486801408eab65cbfb878d001a6bea39e6ee36f89c87d192dd45/image-png/3d_render.png)
 
 **Total time spent: 1h 54m**
+
+# November 7, 2026: final chnages
+<!-- fabricate:entry 2313 -->
+
+converted the BOM format calculated USD prices at 279 PKR/USD set available items capacitor 1x6 header, JST connector to $0 and marked the antenna price replaced the long description with an simple direct one covering the esp32 cam mpu6050 bmp280 and other modules and added the clean markdown BOM table for GitHub
+
+![](https://fabricate.hackclub-assets.com/77f1d7a6da60af4e4b084c097bee56cfe753f0b72537380c695d6cf639e6b9b7/image-png/UpdatedPcb.png)
+![](https://fabricate.hackclub-assets.com/f24383cbe89bc14db12d220846edf7efdbe8f13a6b5740b62ebae667bbe4c5b9/image-png/Updatedschematic.png)
+
+**Total time spent: 2h 48m**
