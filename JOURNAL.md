@@ -7,6 +7,7 @@ total_time: "6h 24m"
 ---
 
 # October 25, 2026: get my pcb.source file and BOM file
+<!-- fabricate:entry 1240 -->
 
 i did not know how to get pcb source file and BOM file in easyeda because I was a beginner in using easyeda so I searched google and with the help of gemini i easily get these two files for submitting my design.
 
@@ -16,7 +17,8 @@ i did not know how to get pcb source file and BOM file in easyeda because I was 
 
 **Total time spent: 30m**
 
-# October 25, 2026: JUST SUBMIT MY PROJECT FOR REVIEW
+# October 25, 2026 (entry 2): JUST SUBMIT MY PROJECT FOR REVIEW
+<!-- fabricate:entry 1242 -->
 
 i just added my project in reviewing i searched and placed all components in my cart, and i am very interested in to build this project when ever i will recieve my grant
 
@@ -25,6 +27,7 @@ i just added my project in reviewing i searched and placed all components in my 
 **Total time spent: 18m**
 
 # October 26, 2026: Added LoRa moduel
+<!-- fabricate:entry 1292 -->
 
 ### Summary of Updates
 ## Project Journal - 1U-CubeSat Telemetry Payload
@@ -38,6 +41,7 @@ On October 26, 2026  the 1u-CubeSat telemetry payload hardware and documentation
 **Total time spent: 1h 24m**
 
 # October 27, 2026: added antena and fix some other issues
+<!-- fabricate:entry 1327 -->
 
 this design prototyping iteration and manufacturing preparation stages of the 1U-CubeSat Telemetry payload PCB The project began with the initial schematic design focused on core telemetry sensors and modular compatibility with standard 1U CubeSat dimensions, utilizing the esp32 cam microcontroller, MPU6050 6 axis IMU and BMP280 barometric sensor alongside an AMS1117 3.3 regulator and decoupling capacitors Next the RF subsystem integrated a 915MHz LoRa module and SMT antenna connector with proper keepout clearance to prevent signal loss During the mechanical and PCB layout phase, standard 3mm M3 mounting holes rounded board corners, and widened power traces 0.6mm 0.8mm were implemented passing the EasyEDA Design Rule Check with zero errors Finally the BOM documentation was compiled with LCSC part numbers and direct supplier links into a structured CSV format for smooth GitHub tracking and manufacturing handover
 
@@ -48,6 +52,7 @@ this design prototyping iteration and manufacturing preparation stages of the 1U
 **Total time spent: 2h 18m**
 
 # October 31, 2026: Design Changes After Review
+<!-- fabricate:entry 1708 -->
 
 I added 100nF and 10uF decouping capacitors near the LoRa module and connected them between 3.3V and GND.I added a solid GND copper plane on the bottom layer.I moved the antenna connector closer to the LoRa ANT pin and made the feedline shorter and straighter
 I ran the DRC check and no errors were reported
