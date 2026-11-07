@@ -3,7 +3,7 @@ title: "1U-CubeSat"
 github: "https://github.com/rafay-os/1U-CubeSat"
 description: "A compact custom designed 1U CubeSat telemetry and environmental sensing rig built around the esp32-cam module. Interated with an MPU6050 6 axis Imu and a BMP280 barometric pressure,temperature sensor over a robust 12c bus. Powered by a LiPo battery via an on board AMS1117-3.3V regulator and slide switch control, featuring dedicated programming headers and a professional 2-layer PCB layout branded with SUPARCO (Pakistan Space Agency)."
 created_at: "2026-10-25"
-total_time: "6h 24m"
+total_time: "8h 12m"
 ---
 
 # October 25, 2026: get my pcb.source file and BOM file
@@ -22,17 +22,15 @@ i did not know how to get pcb source file and BOM file in easyeda because I was 
 
 i just added my project in reviewing i searched and placed all components in my cart, and i am very interested in to build this project when ever i will recieve my grant
 
-![](https://fabricate.hackclub-assets.com/bb27fbe39d7f3e7a41253afd8fbc684603d7c34d690ba33c1f20045f49bbcf92/image-png/ffdd2629-a2be-45ca-8aba-939862f791.png)
+![](https://fabricate.hackclub-assets.com/10a92901f37eec3de4686f2b87be7eafacbfc31595987c6877012df8daf86422/image-png/0b200c71-2389-4326-bfcd-e9035156a092.png)
+![](https://fabricate.hackclub-assets.com/92e5bf601b3f6f25b5fe84ea5ac714792fc7ed38fea1308a77082ece4e4acf95/image-png/4eec918f-898e-42da-bdb1-1711dc673cd5.png)
 
-**Total time spent: 18m**
+**Total time spent: 2h 6m**
 
 # October 26, 2026: Added LoRa moduel
 <!-- fabricate:entry 1292 -->
 
-### Summary of Updates
-## Project Journal - 1U-CubeSat Telemetry Payload
-
-On October 26, 2026  the 1u-CubeSat telemetry payload hardware and documentation were fully finalized To resolve reviewer feedback a 915MHz LoRa module U6 was successfully integrated and routed via SPI to the esp32-cam while 10uF decoupling capacitors C1-C2 were added around the AMS1117-3.3 regulator to ensure stable power delivery The design also retained the 1x6 FTDI header for programming and maintaned clean I2C connections for the MPU6050 and BMP280 sensors Finally, the BOM was complete with local epro.pk pricing totaling PKR 3,238 and the layout successfully passed all EasyEDA DRC checks with zero errors
+on October 26, 2026  a 915MHz LoRa module U6 was successfully integrated and routed via SPI to the esp32-cam while 10uF decoupling capacitors C1-C2 were added around the AMS1117-3.3 regulator to ensure stable power delivery
 
 ![](https://fabricate.hackclub-assets.com/c996260ed6c3487cd346e58ac32293a906eb74eb52ef9db147cc353f5ec1cda8/image-png/LoRa.png)
 ![](https://fabricate.hackclub-assets.com/e9203b7eeb396990fcee813d568fb95399b33f47de0348bfc6c6f1ccadb850f7/image-png/PcbLayout2.png)
@@ -43,7 +41,7 @@ On October 26, 2026  the 1u-CubeSat telemetry payload hardware and documentation
 # October 27, 2026: added antena and fix some other issues
 <!-- fabricate:entry 1327 -->
 
-this design prototyping iteration and manufacturing preparation stages of the 1U-CubeSat Telemetry payload PCB The project began with the initial schematic design focused on core telemetry sensors and modular compatibility with standard 1U CubeSat dimensions, utilizing the esp32 cam microcontroller, MPU6050 6 axis IMU and BMP280 barometric sensor alongside an AMS1117 3.3 regulator and decoupling capacitors Next the RF subsystem integrated a 915MHz LoRa module and SMT antenna connector with proper keepout clearance to prevent signal loss During the mechanical and PCB layout phase, standard 3mm M3 mounting holes rounded board corners, and widened power traces 0.6mm 0.8mm were implemented passing the EasyEDA Design Rule Check with zero errors Finally the BOM documentation was compiled with LCSC part numbers and direct supplier links into a structured CSV format for smooth GitHub tracking and manufacturing handover
+the RF subsystem integrated a 915MHz LoRa module and SMT antenna connector with proper keepout clearance to prevent signal loss During the mechanical and PCB layout phase, standard 3mm M3 mounting holes rounded board corners, and widened power traces 0.6mm 0.8mm were implemented passing the EasyEDA Design Rule Check with zero errors Finally the BOM documentation was compiled with LCSC part numbers and direct supplier links into a structured CSV format for smooth GitHub tracking and manufacturing handover
 
 ![](https://fabricate.hackclub-assets.com/ba909b7bda4a195ee079899f1642d06a31ea04dab1119c3383589ae00d8df3c5/image-png/final.png)
 ![](https://fabricate.hackclub-assets.com/27054be7faa229f0f32a9285e3890ca11ed9acb84d86443538b9285647c15dd3/image-png/Updatedschematic.png)
@@ -54,9 +52,9 @@ this design prototyping iteration and manufacturing preparation stages of the 1U
 # October 31, 2026: Design Changes After Review
 <!-- fabricate:entry 1708 -->
 
-I added 100nF and 10uF decouping capacitors near the LoRa module and connected them between 3.3V and GND.I added a solid GND copper plane on the bottom layer.I moved the antenna connector closer to the LoRa ANT pin and made the feedline shorter and straighter
-I ran the DRC check and no errors were reported
-The antenna feedline imedance still needs to be veified using the final PCB stackup
+i added 100nF and 10uF decouping capacitors near the LoRa module and connected them between 3.3V and GND.I added a solid GND copper plane on the bottom layer.I moved the antenna connector closer to the LoRa ANT pin and made the feedline shorter and straighter
+i ran the DRC check and no errors were reported
+The antenna feedline imedance still needs to be veified using the final PCBstackup
 
 ![](https://fabricate.hackclub-assets.com/77f1d7a6da60af4e4b084c097bee56cfe753f0b72537380c695d6cf639e6b9b7/image-png/UpdatedPcb.png)
 ![](https://fabricate.hackclub-assets.com/f24383cbe89bc14db12d220846edf7efdbe8f13a6b5740b62ebae667bbe4c5b9/image-png/Updatedschematic.png)
