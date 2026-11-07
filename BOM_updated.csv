@@ -1,12 +1,12 @@
-Part,Quantity,Cost USD,Vendor,Link,TOTAL WITH TAX AND SHIPPING
-10uF Ceramic Capacitor (C0402 Samsung CL05A106MQ5NUNC) - already available,2,0,-,-,
-1x6 Male Header (2.54mm) - already available,1,0,-,-,
-Slide Switch SPDT ,1,0.05,EPro,https://epro.pk/product/slider-on-off-switch/,
-ESP32-CAM Module ,1,5.49,EPro,https://epro.pk/product/esp32-cam-ov2640-board-in-pakistan/,
-MPU6050 Sensor Module ,1,1.76,EPro,https://epro.pk/product/mpu6050-gy-521-3-axis-analog-gyroscope-sensor-in-pakistan/,
-BMP280 Pressure Sensor Module,1,1.26,EPro,https://epro.pk/product/bmp280-pressure-sensor-in-pakistan/,
-2-Pin JST PH Connector (2.0mm) - already available,1,0,-,-,
-AMS1117-3.3 LDO Regulator ,1,0.23,EPro,https://epro.pk/product/ams1117-3-3v-module-adjustable-and-fixed-voltage-regulator-in-pakistan/,
-915MHz LoRa Module ,1,6.45,EPro,https://epro.pk/product/sx1276-lora-module-915mhz-rfm95-in-pakistan/,
-IPEX/U.FL Antenna Connector ,1,TBD,Thrifty RC Store,https://thriftyrcstore.com/product/915mhz-t-type-antenna-ipex1-ufl-connector-for-elrs-rx-ipex1-78mm-in-pakistan/,
-,,,,,~$21.84
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes
+10uF Ceramic Capacitor (C0402 Samsung CL05A106MQ5NUNC) - already available,Part,2,0.00,0.00,,'-,Already own,'-
+1x6 Male Header (2.54mm) - already available,Part,1,0.00,0.00,,'-,Already own,'-
+Slide Switch SPDT,Part,1,0.054,0.054,https://epro.pk/product/slider-on-off-switch/,EPro,Grant,
+ESP32-CAM Module,Part,1,5.53,5.53,https://epro.pk/product/esp32-cam-ov2640-board-in-pakistan/,EPro,Grant,
+MPU6050 Sensor Module,Part,1,1.77,1.77,https://epro.pk/product/mpu6050-gy-521-3-axis-analog-gyroscope-sensor-in-pakistan/,EPro,Grant,
+BMP280 Pressure Sensor Module,Part,1,1.27,1.27,https://epro.pk/product/bmp280-pressure-sensor-in-pakistan/,EPro,Grant,
+2-Pin JST PH Connector (2.0mm) - already available,Part,1,0.00,0.00,,'-,Already own,'-
+AMS1117-3.3 LDO Regulator,Part,1,0.23,0.23,https://epro.pk/product/ams1117-3-3v-module-adjustable-and-fixed-voltage-regulator-in-pakistan/,EPro,Grant,
+915MHz LoRa Module,Part,1,6.51,6.51,https://epro.pk/product/sx1276-lora-module-915mhz-rfm95-in-pakistan/,EPro,Grant,
+IPEX/U.FL Antenna Connector,Part,1,4.52,4.52,https://thriftyrcstore.com/product/915mhz-t-type-antenna-ipex1-ufl-connector-for-elrs-rx-ipex1-78mm-in-pakistan/,Thrifty RC Store,Grant,
+Total,,,,19.884,,,,
